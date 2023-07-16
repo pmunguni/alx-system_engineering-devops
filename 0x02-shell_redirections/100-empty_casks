@@ -1,2 +1,2 @@
-#!/bin/bash
-find . -empty -exec  cut -d "/" -f 3 {} +
+#i!/bin/bash
+find .  -empty -printf "%f\n" 
